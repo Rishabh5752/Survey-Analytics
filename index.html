@@ -2,12 +2,89 @@
 <html>
 <head>
     <title>Analytics Graphs</title>
+    <style>
+       /* Reset some default styles for consistency */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Center the content in the middle of the page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Center the content in the middle of the page */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+    </style>
 </head>
 <body>
-    <h1>Analytics Graphs</h1>
-    <p>Click on the links below to view the corresponding QuickSight graphs:</p>
-    <ul>
-        <li><a href="https://ap-south-1.quicksight.aws.amazon.com/sn/accounts/955413563895/dashboards/849bbfd1-c87d-4252-a7c2-d857b6813408?directory_alias=repositree">Available Building</a></li>
-    </ul>
+    <div class="container">
+        <h1>Analytics Graphs</h1>
+        <p>Click on the links below to view the corresponding QuickSight graphs:</p>
+        <ul>
+            <li><a href="https://your-quick-sight-link-1" class="button">Available Building</a></li>
+            <li><a href="https://your-quick-sight-link-2" class="button">Availability by Micromarket</a></li>
+            <li><a href="https://your-quick-sight-link-3" class="button">Number of Units Available</a></li>
+            <li><a href="https://your-quick-sight-link-4" class="button">Number of Buildings Available</a></li>
+            <li><a href="https://your-quick-sight-link-5" class="button">Types of Buildings</a></li>
+        </ul>
+    </div>
 </body>
 </html>
